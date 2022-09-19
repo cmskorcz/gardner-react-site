@@ -1,9 +1,16 @@
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import ContactForm from '../components/ContactForm';
 
 function Contact() {
   return (
     <Container>
-      <h1>This is the contact page</h1>
+      <Row className='justify-content-center'>
+        <Col xs={8} md={6} >
+          <ContactForm />
+        </Col>
+      </Row>
     </Container>
   )
 }
