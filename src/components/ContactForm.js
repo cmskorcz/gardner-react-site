@@ -87,6 +87,7 @@ class ContactForm extends React.Component {
               value={this.state.message}
               onChange={this.handleMessageChange} />
           </Form.Group>
+          
           <Button type='button' size='lg' onClick={this.handleSubmit}>Send</Button>
         </Form>
       </>
